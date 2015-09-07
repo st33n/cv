@@ -1,0 +1,68 @@
+Curriculum Vitae
+================
+Steen Lehmann<steen.lehmann@gmail.com>
+
+****
+[[me]]
+image:img/mugshot-round.png[This is me]
+twitter: http://twitter.com/slehmann[@slehmann]
+github: http://github.com/st33n[@st33n]
+****
+
+== Who am I?
+
+I'm a CTO and Software Specialist for the Danish branch of Jayway, which employs some of the best software specialists in the industry. We consult on all aspects of software development, and are owned 100% by the employees.
+
+.Programming Languages
+****
+[[programming_languages]]
+JavaScript, Ruby, Java, Basic, Pascal, Modula 2, C, C++, Perl
+****
+
+.Spoken Languages
+****
+[[spoken_languages]]
+Danish, English, German, Swedish
+****
+
+Since first discovering computers in the mid 1980s as a kid, I've been writing code in multiple platforms and languages. In the 90s I studied both computer science and human-computer interaction, enabling me to design and build things that are elegant and simple, inside and out.
+
+I take a keen interest in agile/lean ways of working, how teams perform, information and interaction design, software architecture, operations, and much more. Shortening the feedback loop, on all levels, evolving and molding systems until they solve the right problems for the right people, and no more.
+
+.Front-end Tool Chain
+****
+[[frontend-tools]]
+React.js, Bootstrap, Backbone.js, d3.js, SVG, Raphaël, jQuery
+****
+
+My latest work for Jayway includes building fairly complex Javascript-based front-ends with mainly Ruby on Rails back-ends, using Vim. Also, responsible for technical interviews when we recruit sociable geeks.
+
+I've been a speaker (and am part of the program committee) for Øredev (www.oredev.org), the largest developer conference in the Copenhagen-Malmö area, most recently in 2013 on making enterprise apps more fun and enjoyable, using UX conventions from touch interfaces and information design.
+
+== Experience
+
+=== CTO & Software Specialist
+****
+[[experience_jayway]]
+Jayway
+2006-present
+****
+
+My responsibilities include feeding the blowfish, picking up loose bits from the floor, and shaving massive enormous yaks 
+
+****
+[[experience_novell]]
+Novell Inc. (2002-6)
+SilverStream Software (2001-2)
+Wapportal (2000-1)
+****
+
+=== Senior Software Consultant
+
+Although I joined the small startup Wapportal in 2000, back when WAP was the next big thing, we soon found ourselves engulfed by
+first SilverStream Software, and then a year later Novell. We continued building XML based tooling products for Novell's line of
+identity management products.
+
+
+
+
