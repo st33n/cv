@@ -1,11 +1,11 @@
 Curriculum Vitae
 ================
-Steen Lehmann<steen.lehmann@gmail.com>
+Steen Lehmann <steen.lehmann@gmail.com>
 
 ****
 [[me]]
 image:img/mugshot-round.png[This is me]
-twitter: http://twitter.com/slehmann[@slehmann]
+twitter: http://twitter.com/slehmann[@slehmann] +
 github: http://github.com/st33n[@st33n]
 ****
 
@@ -44,25 +44,56 @@ I've been a speaker (and am part of the program committee) for Øredev (www.ored
 === CTO & Software Specialist
 ****
 [[experience_jayway]]
-Jayway
-2006-present
+*2006-present*: Jayway ApS
 ****
 
-My responsibilities include feeding the blowfish, picking up loose bits from the floor, and shaving massive enormous yaks 
+Since being employed in 2006 as the first Danish employee, I've done consulting on most areas of software development and architecture.
+I do technical interviewing for potential hires, help arrange our conference Øredev, and try to keep up-to-date on contemporary technology.
 
-****
-[[experience_novell]]
-Novell Inc. (2002-6)
-SilverStream Software (2001-2)
-Wapportal (2000-1)
-****
+Some of the clients I've worked for during my years at Jayway include:
+
+Sony Ericsson
+TrueSec
+Cloudfinder
+3 (3Switch)
+Politiken (Release Management)
+Polfoto
+Ekstra Bladet (EKSTRA, eBladet)
+WATCHME (EU Project, http://www.project-watchme.eu/)
+INMOTOS (EU Project)
+AmanziTel
+BoB / KPerson
 
 === Senior Software Consultant
+****
+[[experience_novell]]
+*2002-6*: Novell Inc. +
+*2001-2*: SilverStream Software +
+*2000-1*: Wapportal (2000-1) +
+****
 
-Although I joined the small startup Wapportal in 2000, back when WAP was the next big thing, we soon found ourselves engulfed by
-first SilverStream Software, and then a year later Novell. We continued building XML based tooling products for Novell's line of
-identity management products.
+Although I joined the small startup Wapportal in 2000, back when WAP was the next big thing for mobile, we soon found ourselves engulfed by
+first SilverStream Software, and then a year later by Novell, where we ended up a sort of skunk works. We mostly built XML-based Eclipse
+tooling products for Novell's line of identity management products. I ended up having implemented, among other things, the XML Schema
+standard, for use in an innovative XML editor. Our Danish development office was finally shut down in late 2005.
 
+=== Applications Consultant
+****
+[[experience_tibco]]
+1997-2000: TIBCO Finance Technology, Inc.
+****
+
+My first job was with TIBCO, where I spent most of my time at Danske Bank HQ in Holmens Kanal, developing market data displays
+for traders, and supporting their TIBCO message bus installation. It was an intense experience at times, where I learned to
+think on my feet. I became friendly with both the principles of real-time information display to support challenging
+business requirements, and UNIX command-line tools. I helped manage servers spread over more than 20 sites,
+performing upgrades and diagnosing networking issues.
+
+For 4 months in 1999 I worked on-site on a project in Zürich for Credit Suisse First Boston, where I supported the back-end system
+for youtrade.ch, an online equities trading platform for private customers in Switzerland. I was a key part of the TIBCO support team,
+responsible for keeping the system running 24/7, and performing upgrades at pre-scheduled times in the night.
+
+== Education
 
 
 
