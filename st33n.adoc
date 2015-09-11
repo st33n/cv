@@ -5,24 +5,19 @@ Steen Lehmann <steen.lehmann@gmail.com>
 ****
 [[me]]
 image:img/mugshot-round.png[This is me]
-twitter: http://twitter.com/slehmann[@slehmann] +
-github: http://github.com/st33n[@st33n]
 ****
 
 == Who am I?
 
-I'm a CTO and Software Specialist for the Danish branch of Jayway, which employs some of the best software specialists in the industry. We consult on all aspects of software development, and are owned 100% by the employees.
+I'm a CTO and Software Specialist for the Danish branch of Jayway, which employs some of the best software developers in the industry.
+We consult on all aspects of software development, and are owned 100% by the employees.
 
-.Programming Languages
 ****
-[[programming_languages]]
-JavaScript, Ruby, Java, Basic, Pascal, Modula 2, C, C++, Perl
-****
-
-.Spoken Languages
-****
-[[spoken_languages]]
-Danish, English, German, Swedish
+[[info]]
+Location: Copenhagen, Denmark +
+Languages: Danish, English, Swedish and German +
+Twitter:http://twitter.com/slehmann[@slehmann] +
+GitHub:http://github.com/st33n[@st33n] +
 ****
 
 Since first discovering computers in the mid 1980s as a kid, I've been writing code in multiple platforms and languages. In the 90s I studied both computer science and human-computer interaction, enabling me to design and build things that are elegant and simple, inside and out.
@@ -37,9 +32,17 @@ React.js, Bootstrap, Backbone.js, d3.js, SVG, Raphaël, jQuery
 
 My latest work for Jayway includes building fairly complex Javascript-based front-ends with mainly Ruby on Rails back-ends, using Vim. Also, responsible for technical interviews when we recruit sociable geeks.
 
-I've been a speaker (and am part of the program committee) for Øredev (www.oredev.org), the largest developer conference in the Copenhagen-Malmö area, most recently in 2013 on making enterprise apps more fun and enjoyable, using UX conventions from touch interfaces and information design.
+I've been a speaker (and am part of the program committee) for Øredev (www.oredev.org), the largest developer conference in the
+Copenhagen-Malmö area, most recently in 2013footnoteref:[sn-vimeo,http://vimeo.com/79128729#t=28m30s]
+on making enterprise apps more fun and enjoyable, using UX conventions from touch interfaces and information design.
 
-== Experience
+.Programming Languages
+****
+[[programming_languages]]
+JavaScript, Ruby, Java, Basic, Pascal, Modula 2, C, C++, Perl
+****
+
+== Employments
 
 === CTO & Software Specialist
 ****
@@ -95,5 +98,32 @@ responsible for keeping the system running 24/7, and performing upgrades at pre-
 
 == Education
 
+=== B.A.
+****
+[[education1]]
+1991-1997: Computer/Information Science
+****
 
+I studied Computer Science at Århus University for 3 years before switching majors to Information Science, a humanist approach
+to computing. This has given me both a solid background in core computer science, as well as an understanding of the human factors in
+computing. I reached the point where I could start my Master's Thesis, but instead decided to start my first job.
+
+== Selected experiences
+
+This section highlights some of the more visual projects I've been a part of.
+
+=== INMOTOS
+
+Interdependency Modelling Tools and Simulation Based Risk Assessment of ICT Critical Infrastructures Contingency Plans
+
+****
+[[inmotos]]
+2011-12 (6 months), for AmanziTel and the EU
+
+****
+image:img/inmotos.png[INMOTOS CPN Simulation]
+
+For the INMOTOS 
+project, I chose to create a server-side implementation of Coloured Petri-Nets in Rubyfootnoteref:[cpn,https://github.com/st33n/cpn], which used websockets to display a live view of
+the simulation in-browser, complete with development tools. It used the Raphäel library to display SVG-based graphicsfootnoteref:[cpndemo,https://www.youtube.com/watch?v=riLWVf_3BOQ].
 
