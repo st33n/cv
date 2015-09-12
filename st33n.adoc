@@ -12,17 +12,13 @@ image:img/mugshot-round.png[This is me]
 I'm a CTO and Software Specialist for the Danish branch of Jayway, which employs some of the best software developers in the industry.
 We consult on all aspects of software development, and are owned 100% by the employees.
 
-****
-[[info]]
-Location: Copenhagen, Denmark +
-Languages: Danish, English, Swedish and German +
-Twitter:http://twitter.com/slehmann[@slehmann] +
-GitHub:http://github.com/st33n[@st33n] +
-****
+Since first discovering computers in the mid 1980s as a kid, I've been writing code in multiple platforms and languages. In the 90s
+I studied both computer science and human-computer interaction, enabling me to design and build things that are elegant and simple,
+inside and out.
 
-Since first discovering computers in the mid 1980s as a kid, I've been writing code in multiple platforms and languages. In the 90s I studied both computer science and human-computer interaction, enabling me to design and build things that are elegant and simple, inside and out.
-
-I take a keen interest in agile/lean ways of working, how teams perform, information and interaction design, software architecture, operations, and much more. Shortening the feedback loop, on all levels, evolving and molding systems until they solve the right problems for the right people, and no more.
+I take a keen interest in agile/lean ways of working, how teams perform, information and interaction design, software architecture,
+operations, and much more. Shortening the feedback loop, on all levels, evolving and molding systems until they solve the right
+problems for the right people, and no more.
 
 .Front-end Tool Chain
 ****
@@ -30,11 +26,13 @@ I take a keen interest in agile/lean ways of working, how teams perform, informa
 React.js, Bootstrap, Backbone.js, d3.js, SVG, Raphaël, jQuery
 ****
 
-My latest work for Jayway includes building fairly complex Javascript-based front-ends with mainly Ruby on Rails back-ends, using Vim. Also, responsible for technical interviews when we recruit sociable geeks.
+My latest work for Jayway includes building fairly complex Javascript-based front-ends with mainly Ruby on Rails back-ends, using Vim.
+Also, responsible for technical interviews when we recruit sociable geeks.
 
-I've been a speaker (and am part of the program committee) for Øredev (www.oredev.org), the largest developer conference in the
-Copenhagen-Malmö area, most recently in 2013footnoteref:[sn-vimeo,http://vimeo.com/79128729#t=28m30s]
-on making enterprise apps more fun and enjoyable, using UX conventions from touch interfaces and information design.
+I've been a speaker (and am part of the program committee) for http://www.oredev.org[Øredev], the largest developer conference in the
+Copenhagen-Malmö area, most recently in 2013 on http://vimeo.com/79128729#t=28m30[making enterprise apps more fun and enjoyable], using UX conventions from touch interfaces and information
+design.
+
 
 .Programming Languages
 ****
@@ -55,17 +53,17 @@ I do technical interviewing for potential hires, help arrange our conference Ør
 
 Some of the clients I've worked for during my years at Jayway include:
 
-Sony Ericsson
-TrueSec
-Cloudfinder
-3 (3Switch)
-Politiken (Release Management)
-Polfoto
-Ekstra Bladet (EKSTRA, eBladet)
-WATCHME (EU Project, http://www.project-watchme.eu/)
-INMOTOS (EU Project)
-AmanziTel
-BoB / KPerson
+* Sony Ericsson (Xperia Lounge Voucher Server)
+* TrueSec
+* Cloudfinder
+* 3 (3Switch)
+* Politiken (Release Management)
+* Polfoto
+* Ekstra Bladet (EKSTRA, eBladet)
+* WATCHME (EU Project, http://www.project-watchme.eu/)
+* INMOTOS (EU Project)
+* AmanziTel
+* BoB / KPerson
 
 === Senior Software Consultant
 ****
@@ -88,7 +86,7 @@ standard, for use in an innovative XML editor. Our Danish development office was
 
 My first job was with TIBCO, where I spent most of my time at Danske Bank HQ in Holmens Kanal, developing market data displays
 for traders, and supporting their TIBCO message bus installation. It was an intense experience at times, where I learned to
-think on my feet. I became friendly with both the principles of real-time information display to support challenging
+think on my feet. I became friendly with the principles of real-time information display to support challenging
 business requirements, and UNIX command-line tools. I helped manage servers spread over more than 20 sites,
 performing upgrades and diagnosing networking issues.
 
@@ -105,7 +103,7 @@ responsible for keeping the system running 24/7, and performing upgrades at pre-
 ****
 
 I studied Computer Science at Århus University for 3 years before switching majors to Information Science, a humanist approach
-to computing. This has given me both a solid background in core computer science, as well as an understanding of the human factors in
+to computing. This has given me a solid background in core computer science, as well as an understanding of the human factors in
 computing. I reached the point where I could start my Master's Thesis, but instead decided to start my first job.
 
 == Selected experiences
@@ -123,7 +121,10 @@ Interdependency Modelling Tools and Simulation Based Risk Assessment of ICT Crit
 ****
 image:img/inmotos.png[INMOTOS CPN Simulation]
 
-For the INMOTOS 
-project, I chose to create a server-side implementation of Coloured Petri-Nets in Rubyfootnoteref:[cpn,https://github.com/st33n/cpn], which used websockets to display a live view of
-the simulation in-browser, complete with development tools. It used the Raphäel library to display SVG-based graphicsfootnoteref:[cpndemo,https://www.youtube.com/watch?v=riLWVf_3BOQ].
+For the INMOTOS project, I was tasked with converting a large number of requirements and specifications into a working
+prototype able to simulate complex infrastructure such as power plants and pipelines. I decided to use Coloured Petri-Nets,
+a visual programming and modelling tool, creating http://github.com/st33n/cpn[an implementation in Ruby]footnoteref:[cpn,Open sourced in 2012].
+The simulation front-end was a JavaScript application which used websockets to display a live view of the simulation
+in-browser, complete with development tools. It used the Raphäel library to display SVG-based
+graphicsfootnoteref:[cpndemo,https://www.youtube.com/watch?v=riLWVf_3BOQ].
 
