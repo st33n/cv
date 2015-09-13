@@ -26,19 +26,20 @@ problems for the right people, and no more.
 React.js, Bootstrap, Backbone.js, d3.js, SVG, Raphaël, jQuery
 ****
 
-My latest work for Jayway includes building fairly complex Javascript-based front-ends with mainly Ruby on Rails back-ends, using Vim.
+My best work for Jayway includes building complex Javascript-based front-ends.
 Also, responsible for technical interviews when we recruit sociable geeks.
 
 I've been a speaker (and am part of the program committee) for http://www.oredev.org[Øredev], the largest developer conference in the
 Copenhagen-Malmö area, most recently in 2013 on http://vimeo.com/79128729#t=28m30[making enterprise apps more fun and enjoyable], using UX conventions from touch interfaces and information
 design.
 
-
 .Programming Languages
 ****
 [[programming_languages]]
 JavaScript, Ruby, Java, Basic, Pascal, Modula 2, C, C++, Perl
 ****
+
+First and foremost I am a geek at heart, enjoying creating useful software for people.
 
 == Employments
 
@@ -53,17 +54,17 @@ I do technical interviewing for potential hires, help arrange our conference Ør
 
 Some of the clients I've worked for during my years at Jayway include:
 
-* Sony Ericsson (Xperia Lounge Voucher Server)
-* TrueSec
-* Cloudfinder
-* 3 (3Switch)
-* Politiken (Release Management)
-* Polfoto
-* Ekstra Bladet (EKSTRA, eBladet)
+* Sony Ericsson (Xperia Lounge Voucher Server - Java architect)
+* http://www.truesec.se[TrueSec] (Java architect/developer)
+* http://www.cloudfinder.com[Cloudfinder]
+* 3 (https://www.3.dk/business/services/3omstilling/[3Switch])
+* Politiken (Release Management, front-end development)
+* Polfoto (front-end and back-end development)
+* Ekstra Bladet (EKSTRA, eBladet - front+back-end development)
 * WATCHME (EU Project, http://www.project-watchme.eu/)
-* INMOTOS (EU Project)
-* AmanziTel
-* BoB / KPerson
+* INMOTOS (EU Project through AmanziTel, see later)
+* BoB / KPerson (internal tools for resource planning at Jayway)
+* http://www.efis.dk[European Communications Office]
 
 === Senior Software Consultant
 ****
@@ -102,7 +103,8 @@ responsible for keeping the system running 24/7, and performing upgrades at pre-
 1991-1997: Computer/Information Science
 ****
 
-I studied Computer Science at Århus University for 3 years before switching majors to Information Science, a humanist approach
+I studied http://cs.au.dk/[Computer Science] at Århus University for 3 years before switching majors to
+http://bachelor.au.dk/informationsvidenskab/[Information Science], a humanist approach
 to computing. This has given me a solid background in core computer science, as well as an understanding of the human factors in
 computing. I reached the point where I could start my Master's Thesis, but instead decided to start my first job.
 
@@ -110,14 +112,31 @@ computing. I reached the point where I could start my Master's Thesis, but inste
 
 This section highlights some of the more visual projects I've been a part of.
 
+=== KPerson
+
+Competence database for Jayway.
+
+****
+[[kperson-selected-exp]]
+2008-2015 for Jayway. Based on Ruby on Rails and Bootstrap.
+****
+image:img/kperson.png[KPerson]
+
+KPerson, an internal tool at Jayway, was built in 2008 by me and a couple of other consultants at Jayway
+as a Rails 2 application, then maintained and upgraded by me over the next 7 years. It is now a Rails 4 application
+based on the Bootstrap CSS library, making it responsive for phone and tablet use.
+
+KPerson is a database of each consultant's background and skills. Consultants are required to update their
+skills and experiences, and our sales people use the information to search for consultants suitable for incoming assignments,
+then automatically generate and download PDF resumes in the correct format.
+
 === INMOTOS
 
 Interdependency Modelling Tools and Simulation Based Risk Assessment of ICT Critical Infrastructures Contingency Plans
 
 ****
 [[inmotos]]
-2011-12 (6 months), for AmanziTel and the EU
-
+2011-12 (6 months), for AmanziTel and the EU.
 ****
 image:img/inmotos.png[INMOTOS CPN Simulation]
 
@@ -126,5 +145,35 @@ prototype able to simulate complex infrastructure such as power plants and pipel
 a visual programming and modelling tool, creating http://github.com/st33n/cpn[an implementation in Ruby]footnoteref:[cpn,Open sourced in 2012].
 The simulation front-end was a JavaScript application which used websockets to display a live view of the simulation
 in-browser, complete with development tools. It used the Raphäel library to display SVG-based
-graphicsfootnoteref:[cpndemo,https://www.youtube.com/watch?v=riLWVf_3BOQ].
+graphicsfootnoteref:[cpndemo,Demonstration video at https://www.youtube.com/watch?v=riLWVf_3BOQ].
+
+== Conclusion
+
+As is clearly apparent from the graph below, I have improved constantly since starting my professional career in 1997.
+I am now able to tacke problems in a few days that would have taken me weeks fresh out of university. Due to my
+extensive experience with different technologies, I can design user interfaces, evaluate and use new JavaScript frameworks
+and libraries at roughly the rate at which they are produced, build server-side APIs and deploy them on cloud based
+infrastructure, and much more.
+
++++
+<figure>
+  <span id="chart"></span>
+  <figcaption>
+    Figure 1: General Awesomeness as a function of age.
+  </figcaption>
+</figure>
+<script>
+  var chart = c3.generate({
+      bindto: '#chart',
+      data: {
+        x: 'x',
+        columns: [
+          ['x',  25, 30, 35, 40, 45 ],
+          ['GA',  7,  8,  8.5, 10, 11 ]
+        ]
+      }
+  });
+</script>
++++
+
 
