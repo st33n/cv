@@ -113,8 +113,7 @@ For 4 months in 1999 I worked on-site on a project in Zürich for Credit Suisse 
 for youtrade.ch, an online trading system for private customers in Switzerland. I was a key part of the TIBCO support team,
 responsible for keeping the system running 24/7, and performing upgrades at pre-scheduled times in the night.
 
-Waiman Tsui was the project manager:
-[quote, Waiman Tsui]
+[quote, Waiman Tsui - Project Manager for TIBCO Finance Technology]
 ____
 "Steen was a key member of a project team at CSPB. He made major contributions towards the successful completion of a Trading System
 project. He worked professionally & diligently, always ensuring that his output met client expectations. He was strong at identifying
