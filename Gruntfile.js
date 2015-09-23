@@ -11,7 +11,7 @@ module.exports = function(grunt) {
     },
     watch: {
       asciidoc: {
-        files: [ '*.conf', '*.adoc' ],
+        files: [ '*.conf', '*.adoc', '*.js' ],
         tasks: ['shell:asciidoc']
       }
     }
