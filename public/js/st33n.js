@@ -1,24 +1,28 @@
 var $window = $(window);
-var $selfie = $("#me img");
-var marginWidth = $(".marginnote").width();
+var $imgs = $(".marginnote img");
 
-var $minime = $selfie.clone().addClass("minime")
+var $navicons = $imgs.clone().addClass("navicon")
   .click(function() {
     $('html,body').animate({ scrollTop: 0 }, 'slow');
     return false;
   });
 
-$(document.body).prepend($minime);
+$(document.body).prepend($navicons);
 
 $window.on("scroll resize", function() {
+  var delta = $window.width() / 8;
+  $navicons
+    .width($window.width() / 12)
+    .each(function(i) {
+      $navicons.eq(i).css({ top: i * delta + 15 });
 
-  if ($window.scrollTop() > 500) {
-    $minime.addClass("vis");
-    $minime.width($window.width() / 10);
-  }
-  else {
-    $minime.removeClass("vis");
-  }
+      if ($window.scrollTop() + i * delta > $imgs.eq(i).offset().top) {
+        $navicons.eq(i).addClass("vis");
+      }
+      else {
+        $navicons.eq(i).removeClass("vis");
+      }
+    });
 });
 
 $window.trigger("resize");

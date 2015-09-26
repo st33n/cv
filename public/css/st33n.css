@@ -9,11 +9,11 @@ img {
   fill: #666;
 }
 
-.minime.vis {
+.navicon.vis {
   left: 15px;
 }
 
-.minime {
+.navicon {
   left: -200px;
   top: 15px;
   position: fixed;
@@ -23,7 +23,7 @@ img {
 }
 
 @media (max-width: 760px) {
-  .minime {
+  .navicon {
     position: inherit;
     padding-top: 10px;
   }
