@@ -11,15 +11,20 @@ img {
 
 .navicon.vis {
   left: 15px;
+  border: 1px solid #999;
+  padding: 8px;
+  color: #666;
+  font-size: 12pt;
+  border-radius: 150px;
+  transition: all 0.3s;
+  opacity: 1;
 }
 
 .navicon {
-  left: -200px;
-  top: 15px;
+  left: 12.5%;
   position: fixed;
   transition: all 0.3s;
-
-  width: 100px;
+  opacity: 0;
 }
 
 @media (max-width: 760px) {
