@@ -1,0 +1,36 @@
+/*
+img {
+  -webkit-box-shadow: 4px 4px 15px 1px rgba(54,54,54,0.3);
+  -moz-box-shadow: 4px 4px 15px 1px rgba(54,54,54,0.3);
+  box-shadow: 4px 4px 15px 1px rgba(54,54,54,0.3);
+}
+*/
+.c3-axis {
+  fill: #666;
+}
+
+.navicon.vis {
+  left: 15px;
+  border: 1px solid #999;
+  padding: 8px;
+  color: #666;
+  font-size: 12pt;
+  border-radius: 150px;
+  transition: all 0.3s;
+  opacity: 1;
+}
+
+.navicon {
+  left: 12.5%;
+  position: fixed;
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+@media (max-width: 760px) {
+  .navicon {
+    position: inherit;
+    padding-top: 10px;
+  }
+}
+
