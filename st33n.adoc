@@ -232,8 +232,6 @@ infrastructure, and much more.
 </script>
 +++
 
-== Contact
-
 Email is firstname dot lastname at gmail.com. +
 
 I tweet at http://twitter.com/slehmann[@slehmann] +

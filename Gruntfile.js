@@ -3,7 +3,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     shell: {
       deploy: {
-        command: "git push"
+        command: "git subtree push --prefix public origin gh-pages"
       },
       asciidoc: {
         command: "asciidoc -b html5 -o public/index.html -a linkcss -a stylesheet=tufte.css st33n.adoc"
