@@ -4,3 +4,9 @@ This repo contains my ongoing research into fun ways of representing a resume on
 (st33n.adoc), which is transformed to HTML and meant to be used with the excellent Edward Tufte-like stylesheets
 from https://github.com/edwardtufte/tufte-css.
 
+The result can be seen on http://st33n.github.io/cv.
+
+Usage: Install 'grunt' and 'asciidoc' and run the grunt task. This will:
+
+* Use asciidoc to transform the source files into a new version of 'index.html'. Do not modify index.html directly.
+* Watch the source files for changes, and perform the previous step again.
