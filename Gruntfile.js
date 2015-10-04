@@ -6,7 +6,7 @@ module.exports = function(grunt) {
         command: "git subtree push --prefix public origin gh-pages"
       },
       asciidoc: {
-        command: "asciidoc -b html5 -o public/index.html -a linkcss -a stylesheet=tufte.css st33n.adoc"
+        command: "asciidoc -b html5 -o index.html -a linkcss -a stylesheet=tufte.css st33n.adoc"
       }
     },
     watch: {
