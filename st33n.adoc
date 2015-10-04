@@ -227,6 +227,9 @@ infrastructure, and much more.
           ['x',  25, 30, 35, 40, 45 ],
           ['GA',  7,  8,  8.5, 10, 11 ]
         ]
+      },
+      tooltip: {
+        show: false
       }
   });
 </script>
