@@ -1,0 +1,6 @@
+# My CV
+
+This repo contains my ongoing research into fun ways of representing a resume online. It uses an Asciidoc source file
+(st33n.adoc), which is transformed to HTML and meant to be used with the excellent Edward Tufte-like stylesheets
+from https://github.com/edwardtufte/tufte-css.
+
