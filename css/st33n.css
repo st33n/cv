@@ -31,3 +31,7 @@ marginnote img {
   }
 }
 
+.sidenote-number:after, .sidenote:before {
+  color: #f00000;
+}
+

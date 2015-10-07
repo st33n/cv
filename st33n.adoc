@@ -37,8 +37,8 @@ I'm responsible for technical interviews when we recruit sociable geeks.
 ****
 [[turnoffs]]
 Enterprise Java +
-Ceremony +
-10+ second feedback loops +
+Needless ceremony +
+Long feedback loops +
 Unneccessary complexity
 ****
 
@@ -166,7 +166,7 @@ content on the site, Denmark's busiest web site.
 I was responsible for integrating the existing Single Sign-On system (also developed by Jayway) with a
 third-party subscription system and a third-party payment service. The designs for sign-up flows for both new subscribers
 and existing customers had to be implemented into the existing content management system (from another third
-party), as did forms for letting customers.
+party), as did forms for letting customers maintain their accounts.
 
 === KPerson
 
@@ -213,10 +213,10 @@ infrastructure, and much more.
 
 +++
 <figure>
-  <span id="chart"></span>
   <figcaption>
     Figure 1: General Awesomeness as a function of age.
   </figcaption>
+  <span id="chart"></span>
 </figure>
 <script>
   var chart = c3.generate({
