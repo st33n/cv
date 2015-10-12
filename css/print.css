@@ -2,6 +2,14 @@ html {
   font-size: 9pt;
 }
 
+body {
+  min-width: 980px;
+}
+
+img {
+  page-break-inside: avoid;
+}
+
 .navicon {
   display: none;
 }

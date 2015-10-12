@@ -9,13 +9,13 @@ var $navicons = $h2s.clone().addClass("navicon")
     return false;
   });
 
-$navicons.each(function(i) {
+$window.on("resize", function() {
+  $navicons.each(function(i) {
     var $ni = $navicons.eq(i);
     $ni.text($ni.text().substring(0,3));
     $ni.data("origin", $h2s.eq(i).offset());
+  });
 });
-
-$(document.body).prepend($navicons);
 
 $window.on("scroll resize", function() {
   var delta = $window.width() / 10;
@@ -31,6 +31,8 @@ $window.on("scroll resize", function() {
       }
     });
 });
+
+$(document.body).prepend($navicons);
 
 $window.trigger("resize");
 
